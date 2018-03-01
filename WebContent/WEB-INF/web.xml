@@ -119,4 +119,14 @@
     <servlet-name>ErrorServlet</servlet-name>
     <url-pattern>/error</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CheckImgServlet</display-name>
+    <servlet-name>CheckImgServlet</servlet-name>
+    <servlet-class>com.itheima.checkImg.CheckImgServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckImgServlet</servlet-name>
+    <url-pattern>/checkImgServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
